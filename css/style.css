@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+/*navigation bar*/
+section {
+    padding-top: 16px;
+}
+header {
+    height: 70vh;
+    background-color: #0C325A;
+}
+.logo {
+    width: 15%;
+}
+.nav-top {
+    width: 45%;
+}
+.buttons {
+    width: 40%;
+    text-align: right; /*soluzione imbarazzante?*/
+}
+.nav-link,
+.nav-link a {
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 45px; /*scettico*/
+}
+.nav-top a:hover {
+    color: #7CBB02;
+}
+.nav-link li {
+    display: inline-block;
+    margin-left: 16px;
+}
+.btn {
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.btn-white {
+    background-color: #0C325A;
+    border: 1px solid #ffffff;
+    padding: 8px 24px;
+}
+.btn-green {
+    background-color: #7CBB02;
+    border: 1px solid #7CBB02;
+}
+.btn-white:hover {
+    background-color: #061c33;
+}
+ .btn-green:hover {
+    background-color: #639400;
+}
