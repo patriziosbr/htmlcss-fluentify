@@ -103,3 +103,13 @@ header {
 .cta-main {
     padding: 16px;
 }
+/* info gray */
+.info {
+    height: 20vh;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #D3D3D3;
+}
+main > .container {
+    
+}
