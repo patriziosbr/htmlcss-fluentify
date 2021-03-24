@@ -10,6 +10,7 @@ body {
     width: 80%;
     height: 100%; /*forse*/
     margin: 0 auto;
+    position: relative;
 }
 .clearfix::after {
     content: "";
@@ -21,6 +22,14 @@ body {
 }
 .float-right {
     float: right;
+}
+.w-50 {
+    width: 50%;
+}
+h1 {
+    color: #ffffff;
+    margin-bottom: 32px;
+    font-size: 48px;
 }
 
 section {
@@ -34,6 +43,7 @@ header {
     background-position: 112% 107%;
     background-size: 75% auto;
     background-repeat: no-repeat;
+    
 }
 /*navigation bar*/
 .logo {
@@ -84,6 +94,12 @@ header {
     color: #ffffff;
 }
 /*hero text area heading cta*/
+.hero-text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0 , -50%);
+}
 .cta-main {
     padding: 16px;
 }
