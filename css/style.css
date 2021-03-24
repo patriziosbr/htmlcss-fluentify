@@ -41,9 +41,8 @@ header {
     background-color: #0C325A;
     background-image: url('../img/background-header.png');
     background-position: 112% 107%;
-    background-size: 75% auto;
+    background-size: 65% auto;
     background-repeat: no-repeat;
-    
 }
 /*navigation bar*/
 .logo {
