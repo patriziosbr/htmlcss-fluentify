@@ -8,7 +8,7 @@ body {
 }
 .container {
     width: 80%;
-    height: 100%; /*forse*/
+    height: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -33,11 +33,11 @@ h1 {
 }
 
 section {
-    height: 100%; /*forse*/
+    height: 100%; 
     padding-top: 16px;
 }
 header {
-    height: 85vh; /*test, potrebbe creare problemi?*/
+    height: 70vh;
     background-color: #0C325A;
     background-image: url('../img/background-header.png');
     background-position: 112% 107%;
@@ -54,7 +54,7 @@ header {
 }
 .buttons {
     width: 40%;
-    text-align: right; /*soluzione imbarazzante?*/
+    text-align: right;
 }
 .nav-link,
 .nav-link a {
@@ -65,7 +65,7 @@ header {
     text-transform: uppercase;
     line-height: 45px;
 }
-.nav-top a:hover {
+.nav-link a:hover {
     color: #7CBB02;
 }
 .nav-link li {
@@ -88,10 +88,11 @@ header {
 }
 .btn-white:hover {
     background-color: #061c33;
+    color: #ffffff !important;
 }
  .btn-green:hover {
     background-color: #639400;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 /*hero text area heading cta*/
 .hero-text {
