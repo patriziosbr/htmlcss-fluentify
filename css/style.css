@@ -8,6 +8,7 @@ body {
 }
 .container {
     width: 80%;
+    height: 100%; /*forse*/
     margin: 0 auto;
 }
 .clearfix::after {
@@ -22,14 +23,19 @@ body {
     float: right;
 }
 
-/*navigation bar*/
 section {
+    height: 100%; /*forse*/
     padding-top: 16px;
 }
 header {
-    height: 70vh;
+    height: 85vh; /*test, potrebbe creare problemi?*/
     background-color: #0C325A;
+    background-image: url('../img/background-header.png');
+    background-position: 112% 107%;
+    background-size: 75% auto;
+    background-repeat: no-repeat;
 }
+/*navigation bar*/
 .logo {
     width: 15%;
 }
@@ -47,7 +53,7 @@ header {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
-    line-height: 45px; /*scettico*/
+    line-height: 45px;
 }
 .nav-top a:hover {
     color: #7CBB02;
@@ -75,4 +81,9 @@ header {
 }
  .btn-green:hover {
     background-color: #639400;
+    color: #ffffff;
+}
+/*hero text area heading cta*/
+.cta-main {
+    padding: 16px;
 }
