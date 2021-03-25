@@ -346,6 +346,18 @@ footer > .container.clearfix {
     margin: 0 16px;
 }
 /*footer 4*/
-.credists {
-    
+.credits {
+    text-align: right;
+}
+.site-list {
+    list-style: none;
+}
+.site-list li {
+    margin-bottom: 8px;
+}
+.site-list a {
+    text-decoration: none;
+}
+.site-list a:hover {
+    color: #D3D3D3;
 }
