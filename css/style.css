@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     position: relative;
 }
+/*float*/
 .clearfix::after {
     content: "";
     display: table;
@@ -26,6 +27,64 @@ body {
 .w-50 {
     width: 50%;
 }
+
+/* color and size */
+.back100 {
+    width: 100%;
+}
+.container60 {
+    width: 60%;
+    margin: auto;
+}
+.container50 {
+    width: 50%;
+    margin: auto;
+}
+.container35 {
+    width: 35%;
+}
+.container40 {
+    width: 40%;
+}
+.dark-blue-bg {
+    background-color: #0C325A;
+}
+.light-blue-bg {
+    background-color: #17416B;
+}
+.img25 {
+    width: 25%;
+}
+.margin-btm24 {
+    margin-bottom: 24px;
+}
+.margin-btm56 {
+    margin-bottom: 65px;
+}
+.link-blu {
+    color: #5586BC;
+}
+.link-orange {
+    color: #F7A60A;
+}
+.orange {
+    color: #F7A60A;
+    text-decoration: none;
+}
+.link-green {
+    color: #80B808;
+}
+.p-gray {
+    color: #808080;
+    font-weight: 500;
+}
+.txt-white {
+    color: #fff;
+}
+.txt-green {
+    color: #7CBB02;
+    line-height: 1.5;
+}
 h1 {
     color: #ffffff;
     margin-bottom: 32px;
@@ -37,11 +96,7 @@ h2 {
 h3 {
     font-size: 18px;
 }
-.p-gray {
-    color: #808080;
-    font-weight: 500;
-}
-
+/* nav wrap*/
 .wrap-nav {
     height: 100%; 
     padding-top: 16px; 
@@ -138,10 +193,6 @@ header {
 .graphic img {
     height: 50%;
     margin-bottom: 32px;
-}
-.txt-green {
-    color: #7CBB02;
-    line-height: 1.5;
 }
 .small-line {
     width: 50px;
@@ -247,12 +298,54 @@ footer > .container.clearfix {
     font-size: 11px;
     font-weight: 700;
 }
-.pc-area-txt a {
+.link-blu {
     color: #5586BC;
 }
 .pc-area-txt > * {
     margin-bottom: 16px;
 }
-.back100 {
+.foot1 {
+    padding: 24px 0 15px;
+}
+.container35 > * {
+    margin-bottom: 32px;
+}
+/*foot white*/
+.foot2 > h2{
+    text-align: center;
+}
+.title-foot2 {
+    margin: 72px 58px;
+}
+.link-blu::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #5586BC;
+    margin-bottom: 24px;
+}
+.link-orange::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #F7A60A;
+    margin-bottom: 24px;
+}
+.link-green::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #80B808;
+    margin-bottom: 24px;
+}
+.w-33 {
+    width: calc(33% - 32px);
+    margin: 0 16px;
+}
+/*footer 4*/
+.credists {
     
 }
