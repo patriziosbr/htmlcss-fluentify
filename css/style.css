@@ -42,9 +42,9 @@ h3 {
     font-weight: 500;
 }
 
-section {
+.wrap-nav {
     height: 100%; 
-    padding-top: 16px;
+    padding-top: 16px; 
 }
 header {
     height: 70vh;
@@ -93,7 +93,7 @@ header {
 }
 .btn-green {
     background-color: #7CBB02;
-    border: 1px solid #7CBB02;
+    /* border: 1px solid #7CBB02; da css validator lo considera un warning*/
 }
 .btn-white:hover {
     background-color: #061c33;
@@ -201,9 +201,6 @@ footer > .container.clearfix {
     border-radius: 5px 5px 0 0 !important;
     border: none;
     cursor: pointer;
- }
- button p {
-     padding-top: 2px;
  }
  .seleziona {
     border-bottom: 1px solid #808080;
