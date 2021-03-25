@@ -202,10 +202,33 @@ footer > .container.clearfix {
     border: none;
     cursor: pointer;
  }
+ /* footer commmentato 
  .seleziona {
     border-bottom: 1px solid #808080;
     padding-bottom: 4px;
  }
  .seleziona span.p-gray:last-child {
     margin-left: 32px;
+} */
+.shake-hand-area {
+    width: 70%;
+    margin: 64px auto;
+}
+.shake-hand-area img {
+    width: 70%;
+    margin-left: 56px;
+}
+.shake-txt {
+    width: 40%;
+}
+.p-shake {
+    width: 51%;
+    margin-top: 5px;
+    text-align: center;
+    color: #5586BC;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.shake-txt > * {
+    margin-bottom: 16px;
 }
