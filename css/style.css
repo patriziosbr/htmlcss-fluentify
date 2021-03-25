@@ -205,3 +205,10 @@ footer > .container.clearfix {
  button p {
      padding-top: 2px;
  }
+ .seleziona {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 4px;
+ }
+ .seleziona span.p-gray:last-child {
+    margin-left: 32px;
+}
