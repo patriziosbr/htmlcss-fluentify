@@ -154,8 +154,8 @@ header {
 }
 /* mountain area */
 .mountain-area {
-    width: 95%;
-    margin: 32px 0;
+    width: 75%;
+    margin: 32px auto;
 }
 .mountain-img img {
     width: 70%;
@@ -175,4 +175,19 @@ header {
 .bottom {
     height: 150px;
     background-color: #D3D3D3;
+}
+footer > .container.clearfix {
+    line-height: 150px;
+}
+.title-footer {
+    width: 60%;
+}
+.short-form {
+    width: 40%;
+}
+.p-inline {
+    display: inline-block;
+}
+.short-form > * {
+    margin: 0 16px;
 }
