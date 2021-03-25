@@ -148,8 +148,13 @@ header {
     margin: 16px auto;
     text-align: center;
 }
+/*mountain hr*/
+.mountain-hr {
+    opacity: 0.50;  
+}
 /* mountain area */
 .mountain-area {
+    width: 95%;
     margin: 32px 0;
 }
 .mountain-img img {
@@ -157,7 +162,7 @@ header {
     margin-left: 60px;
 }
 .mountain-txt {
-    width: 300px;
+    padding: 0px 124px;;
 }
 .mountain-txt > * {
     margin-bottom: 8px;
