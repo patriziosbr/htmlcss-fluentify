@@ -169,7 +169,7 @@ header {
     padding: 16px;
 }
 /* info gray */
-.info {
+.bg-gray {
     height: 20%;
     padding: 40px 0;
     text-align: center;
@@ -201,6 +201,8 @@ header {
 }
 /*mountain hr*/
 .mountain-hr {
+    width: 98%;
+    margin: 0 auto;
     opacity: 0.50;  
 }
 /* mountain area */
@@ -223,10 +225,10 @@ header {
     font-weight: 600;
 }
 /* footer */
-.bottom {
+/* .bottom {
     height: 150px;
     background-color: #D3D3D3;
-}
+} */
 footer > .container.clearfix {
     line-height: 150px;
 }
